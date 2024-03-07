@@ -2,9 +2,9 @@ let hii = document.querySelector("h3");
 hii.addEventListener('mouseover' ,  ()=>{
     let store = hii.innerHTML
     console.log(store);
-    if(store == "Hello World"){
-        hii.innerHTML = "Welcome World"
+    if(store == "New World"){
+        hii.innerHTML = "Old World"
     }else{
-        hii.innerHTML = "Hello World"
+        hii.innerHTML = "New World"
     }
 })
